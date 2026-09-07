@@ -29,7 +29,7 @@ export default function Home() {
           {user.bio}
         </p>
         <a
-          href="/api/vcf"
+          href="/contact.vcf"
           download="contact.vcf"
           className="w-full py-3.5 bg-[#8B3A62] hover:bg-[#732f51] text-white rounded-full font-medium text-sm transition-all duration-200 shadow-md mb-6 inline-block"
         >
