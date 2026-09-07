@@ -11,8 +11,8 @@ export default function Home() {
   };
 
   return (
-    <main className="min-h-screen bg–‡$f3f4f8] flex items-center justify-center p-4 font-sans" dir="ltr">
-      <div className="w-full max-w[390px] bg-white rounded-3xl shadow-[0_15px_35px_rgba(0,0,0,0.06)] overflow-hidden flex flex-col items-center p-8 text-center border border-gray-100">
+    <main className="min-h-screen bg-[#f3f4f8] flex items-center justify-center p-4 font-sans" dir="ltr">
+      <div className="w-full max-w-[390px] bg-white rounded-3xl shadow-[0_15px_35px_rgba(0,0,0,0.06)] overflow-hidden flex flex-col items-center p-8 text-center border border-gray-100">
         <div className="w-24 h-24 rounded-full bg-[#8B3A62] text-white flex items-center justify-center text-3xl font-bold mb-4 shadow-sm">
           TW
         </div>
@@ -22,7 +22,7 @@ export default function Home() {
         <h1 className="text-2xl font-bold text-gray-800 mb-2">
           {user.name}
         </h1>
-        <p className="text-xs leading-relaxed text-gray-500 max-w[280px] mb-6">
+        <p className="text-xs leading-relaxed text-gray-500 max-w-[280px] mb-6">
           {user.bio}
         </p>
         <a
@@ -37,14 +37,14 @@ export default function Home() {
             href={`tel:${user.callPhone}`}
             className="flex items-center justify-between px-4 py-3.5 rounded-2xl bg-gray-50 hover:bg-gray-100 border border-gray-100 transition-colors text-gray-700 text-sm font-medium"
           >
-            <span>ðŸ“‰ {user.displayPhone}</span>
+            <span>Phone: {user.displayPhone}</span>
             <span className="text-xs text-gray-400">Call</span>
           </a>
           <a
             href={`mailto:${user.email}`}
             className="flex items-center justify-between px-4 py-3.5 rounded-2xl bg-gray-50 hover:bg-gray-100 border border-gray-100 transition-colors text-gray-700 text-sm font-medium"
           >
-            <span>ðŸ’‰" {user.email}</span>
+            <span>Email: {user.email}</span>
             <span className="text-xs text-gray-400">Send</span>
           </a>
         </div>
