@@ -1,9 +1,11 @@
 BEGIN:VCARD
 VERSION:3.0
-N:?????;???;;;
-FN:??? ?????
-TITLE:UX/UI Designer
-TEL;TYPE=CELL,VOICE:+972585777350
-EMAIL:tamar1234@example.com
-URL:https://wa.me/972585777350
+N:Weiler;Tamar;;;
+FN:Tamar Weiler
+TITLE:DCM & Consul
+ORG:Embassy of Israel
+ADR;TYPE=WORK:;;Abdulla Kahar St. 3;Tashkent;;;lepublic of Uzbekistan
+TEL;TYPE=WORK,VOICE:+998781407500
+EMAIL;TYPE=WORK:DCM@tashkent.mfa.gov.il
+URL:http://new.embassies.gov.il
 END:VCARD
